@@ -1,0 +1,7 @@
+JS
+
+Variaveis em JS pode ser: VAR ou LET 
+= - recebe
+null - espaço nao alocado
+
+podemos usar tem tipos de aspas no JS: ""(aspas duplas) , '' (aspas), ``(crase) 
