@@ -5,3 +5,16 @@ Variaveis em JS pode ser: VAR ou LET
 null - espaço nao alocado
 
 podemos usar tem tipos de aspas no JS: ""(aspas duplas) , '' (aspas), ``(crase) 
+
+
+OPERADORES
+Aritimetico 
++ soma
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão inteira
+** potencia
+
+Incremento 
+var ++ - simplicar os operadores aritimeticos
