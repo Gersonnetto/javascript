@@ -1,8 +1,13 @@
 JS
 
-Variaveis em JS pode ser: VAR ou LET 
+Variaveis em JS pode ser: VAR ou LET ou const (valor da constante não muda)
+Scope - determina a vizibilade da variavel
+
+`` - template literals ${var}
 = - recebe
 null - espaço nao alocado
+typeof - O operador typeof retorna uma string indicando o tipo de um operando.
+length - Essa propriedade retorna o número de unidades de código presentes na string
 
 podemos usar tem tipos de aspas no JS: ""(aspas duplas) , '' (aspas), ``(crase) 
 
@@ -18,3 +23,31 @@ Aritimetico
 
 Incremento 
 var ++ - simplicar os operadores aritimeticos
+
+Boolean
+treu 
+false
+
+undefined - indefinido 
+null - nulo
+
+Object {} - uma estrutura de dados
+Array [] - vetores, tambem uma estrutura de dados (uma lista)
+
+
+// escrita de textos + variaveis concatenando valores
+console.log('o ' + name + ' tem ' + age + ' anos.')
+
+// interpolando valores com tempalte literals or tamplate or strins
+console.log(`o ${name} tem ${age} anos.`)
+
+// objets
+const person = {
+    name: 'gerson',
+    age: 24,
+    weigth:68.8,
+    isAdmin: true
+}
+
+// interpolacao de objetos com tamplate literals
+console.log(`${person.name} tem ${person.age} e pesa atualmente ${person.weigth}`)
