@@ -13,13 +13,22 @@ podemos usar tem tipos de aspas no JS: ""(aspas duplas) , '' (aspas), ``(crase)
 
 
 OPERADORES
-Aritimetico 
+
 + soma
 - subtração
 * multiplicação
 / divisão
 % resto da divisão inteira
 ** potencia
+! negação
+!== diferente
+&& conjunção - dois valores verdadeiros
+|| disjunção - dois valores falsos
+
+(teste) ? (true) : (false) -ternario
+
+== igual
+=== igual absoluto
 
 Incremento 
 var ++ - simplicar os operadores aritimeticos
@@ -51,3 +60,54 @@ const person = {
 
 // interpolacao de objetos com tamplate literals
 console.log(`${person.name} tem ${person.age} e pesa atualmente ${person.weigth}`)
+
+
+DOM Document Objetc Model
+selecionar elementos pelo ID no JS
+
+getElementById 
+getElementByName
+getElementByTag
+getElementByTag
+querySelector
+querySelectorAll 
+
+EVENTOS - addEventListener
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
