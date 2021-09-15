@@ -15,6 +15,7 @@ podemos usar tem tipos de aspas no JS: ""(aspas duplas) , '' (aspas), ``(crase)
 OPERADORES
 
 + soma
++= concatenar
 - subtração
 * multiplicação
 / divisão
@@ -22,8 +23,8 @@ OPERADORES
 ** potencia
 ! negação
 !== diferente
-&& conjunção - dois valores verdadeiros
-|| disjunção - dois valores falsos
+&& "AND - E"- dois valores verdadeiros - colcoar a variavel 
+|| "OR - ou"- dois valores falsos - colcoar a variavel 
 
 (teste) ? (true) : (false) -ternario
 
@@ -79,6 +80,28 @@ mousedown
 mouseup
 click
 mouseout
+
+CONDIÇÕES
+if - se
+else - se não
+
+switch (expressao) {
+valor 1 
+  conteudo 1	
+ break
+
+valor 2
+  conteudo 2	
+ break
+
+valor 3 
+  conteudo 3	
+ break
+
+default
+  conteudo default
+ break
+}
 
 
 

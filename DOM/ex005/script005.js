@@ -8,4 +8,4 @@ function somar() {
     var s = n1 + n2 
 
     res.innerHTML = `A soma entre ${n1} + ${n2} = <strong>${s}</strong>`
-}
+}   
