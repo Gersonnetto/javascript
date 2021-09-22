@@ -25,6 +25,7 @@ OPERADORES
 !== diferente
 && "AND - E"- dois valores verdadeiros - colcoar a variavel 
 || "OR - ou"- dois valores falsos - colcoar a variavel 
+var ++ = a variavel recebe ela + 1 (var = var + 1)	
 
 (teste) ? (true) : (false) -ternario
 
@@ -102,6 +103,74 @@ default
   conteudo default
  break
 }
+
+CARREGAR FUNÇOES
+
+onclick - quando clicar 
+onload - quando a pagina carregar
+
+
+
+
+
+
+ESTRUTURA DE REPETIÇÃO 
+
+while - enquanto 
+
+var c = 1
+while (c < 5) {
+    console.log(`Passo ${c}`)
+    c++
+}
+
+do - faça
+var c = 1
+do {
+    console.log(`Passo ${c}`)
+    c++
+} while (c < 5) 
+
+for - para 
+for (var c = 1; c <= 10; c++) {
+    console.log(`passo ${c}`)
+}
+
+
+
+
+
+'''ARROW FUCTION'''
+
+const sayMyName = () => {
+    console.log('gerson')
+}
+
+sayMyName()
+
+
+
+
+
+
+
+// callback function //
+
+function sayMyName(name) {
+    console.log('antes da callback')
+
+    name()
+
+    console.log('depois da callback')
+}
+
+// aceita todos os tipos de dados
+
+sayMyName(
+    () => {
+        console.log('estou em uma callback')
+    }
+)
 
 
 

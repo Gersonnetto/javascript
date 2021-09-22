@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 005</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="conteiner">
+            <div class="sessaoConteudo">
+                <header>
+                    <h1>
+                        Verificador de Idade
+                    </h1>
+                </header>
+                <main>
+                    <div class="calcAnos">
+                        <p>
+                            Ano de nascimento
+                            <input type="number" id="txtAno">
+                        </p>
+                        <p>
+                            Sexo
+                            <input type="radio" name="sex" id="mas" checked>
+                            <label for="mas">Masculino</label>
+                            <input type="radio" name="sex" id="fem">
+                            <label for="fem">Feminino</label>
+                        </p>
+                        <div class="button">
+                            <input type="button" id="button" value="Verificar" onclick="verificar()">
+                        </div>
+                        <p>
+                            preencha os dados acima
+                        </p>
+                    </div>
+                    <div class="res" id="res">
+                        <p>
+                            resultado
+                        </p>
+                    </div>
+                </main>
+                <footer>
+                    &copy; gersonnetto
+                </footer>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
