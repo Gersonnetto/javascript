@@ -11,6 +11,9 @@ length - Essa propriedade retorna o número de unidades de código presentes na 
 
 podemos usar tem tipos de aspas no JS: ""(aspas duplas) , '' (aspas), ``(crase) 
 
+quando uma função é atrelada a um objeto, isso se chama Metodo
+
+um objeto pode ter diversas funções atreladas a ele
 
 OPERADORES
 
